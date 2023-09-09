@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>TuneBox</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <form action="contacto.html" method="post">
+                <table>
+                    <caption>Completa el formulario</caption>
+                    <tr>
+                        <td><label for="nombre completo">Nombre completo:</label></td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="edad">Edad:</label></td>
+                        <td><input type="number" id="edad" name="edad"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="color">Color preferido:</label></td>
+                        <td><input type="color" id="color" name="color"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="comentario">Comentario:</label></td>
+                        <td><textarea id="comentario" name="comentario" rowspan="4" colspan="50"
+                                minlength="30"></textarea>
+                        </td>
+                    </tr>
+                </table>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Nosotros</h2>
+            <p>Descubre la experiencia definitiva de la música con nuestra aplicación. Explora un vasto catálogo de
+                canciones, crea listas de reproducción personalizadas, sigue a tus artistas favoritos.
+                ¡Deja que la música te acompañe en cada momento de tu vida!</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright TuneBox SA</p>
+    </footer>
+</body>
+
+</html>
